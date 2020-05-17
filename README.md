@@ -27,7 +27,7 @@ En Colombia, datos tomados de Colombia National Institute of Health:
 
 Los datos recogidos se llevan a una landing zone que en nuestro ejercicio la simulamos como nuestra máquina, posteriormente se mudan a la zona de datos crudos en s3 que tiene la siguiente estructura de ficheros:
 
-    -
+![](./images/s3antes.jpeg)
 
 Despues de ejecutar el paso siguiente la estructura de ficheros en la zona de producción que será consumida por el visualizador, luce así:
 
@@ -45,12 +45,25 @@ El insumo que el proceso de la fase análisis exploratorio de datos genera, es a
 
 ### Visualizaciones para Colombia
 
+La primera imágen nos muestra el crecimiento exponencial de los infectados en Colombia, sin embargo, podemos observar que la mayor porpoción de infectados provienen de la capital (tiene sentido por ser uno de los terriotorios más poblados), pero el dato podría estar sesgado porque también cuentan con mayores recursos para reportar resultados de pruebas.
+
+Contamos con :
+
+- **9617** Infectados en colombia en la fecha de corte para la gráfica
+- De los cuales **2426** se han recuperado y lamentablemente
+- **436** han fallecido, además entre los infectados
+- **2420** estan entre 18-50 años de edad, rezagando los otros infectados a las edades mayores que tienen más riesgo
+
 ![](./images/colombia.png)
 
 ### Visualizaciones para el Mundo
 
+El panoráma a nivel mundial, particularmente es bastante gris para Estados Unidos e Italia, que sus cifras de infectados crecen exponencialmente, y a la velocidad que observamos probablemente el sistema de salud colapsará totalmente, y el número de muertos crecerá sin remedio.
+
 ![](./images/mundo.png)
 
 ### Visualizaciones para Colombia vs Mundo
+
+Esta gráfica (que contiene dos ejes 'y' ) nos permite comparar el comportamiento exponencial del virus, y observamos que la escala de número de infectados en Colombia no es tan acelerada como en el mundo, lo que nos situa en un lugar estratégico para replantear las medidas que eviten encontrarnos en la posición que por desgracia viven estos otros países.
 
 ![](./images/colombiavsmundo.png)

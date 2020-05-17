@@ -67,3 +67,8 @@ El panoráma a nivel mundial, particularmente es bastante gris para Estados Unid
 Esta gráfica (que contiene dos ejes 'y' ) nos permite comparar el comportamiento exponencial del virus, y observamos que la escala de número de infectados en Colombia no es tan acelerada como en el mundo, lo que nos situa en un lugar estratégico para replantear las medidas que eviten encontrarnos en la posición que por desgracia viven estos otros países.
 
 ![](./images/colombiavsmundo.png)
+
+Integrantes:
+
+    - Miguel Angel Ortiz Arboleda
+    - Hassler Castro Cuesta
